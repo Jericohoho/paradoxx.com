@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> REGISTRATION</title> 
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body class="sign"> <center><br><br>
+ <header>
+            <div class="container">
+                <div id="branding">
+                    <h1>PARADOX BOOK<span class="highlight"> SHOP</span></h1>
+                </div>
+            <ul>
+				<li><a href="signup.html">SIGNUP</a></li>
+				<li><a href="login.html">LOGIN</a></li>
+				<li><a href="Contact.html">CONTACT</a></li>
+				<li><a href="Products.html">PRODUCTS</a></li>
+				<li><a href="index.html">HOME</a></li>
+            </ul>
+            </header>
+	</center>
+	<br><br><br>
+	
+    <form class="xb">  <center>
+        <div class="back"> <br><br>
+			<h1>Create Account</h1>
+				<input type="text" id="fname" placeholder="Enter FirstName" name="firstname" required>
+				<input type="text" id="lname"placeholder="Enter LastName" name="lastname" required>
+				<input type="text" id="username" placeholder="Enter Username" name="username" required>  
+				<input type="text" id="email" placeholder="Enter Email" name="email" required>
+				<input type="password" id="password" placeholder="Enter Password" name="createpassword" required>
+				<input type="password" id="Confirm password" placeholder="Confirm Password" name="confirm password" required>
+				
+			 <label for="Birthdate">Date of Birth:</label>
+			<input type="date" id="Birthdate" name="Date of Birth" min="04-03-2002"><br><br>
+				
+			<label for="gender">Gender:</label>
+				  <select id="gender" name="gender">
+					<option value="male" selected>Male</option>
+					<option value="female">Female</option>
+				  </select>
+			<br>
+			<input type="checkbox" checked="checked"> Please check this box to confirm you are not a robot</input><br>
+			<input type="button" name="" value="Register" onClick="register()"/>   
+			<a href="#"> Forgot password? </a><br><br>
+			
+			
+			</center>
+        </div>   
+    </form>  
+	<br><br>
+</body>
+</html>

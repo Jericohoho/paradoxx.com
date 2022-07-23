@@ -1,0 +1,256 @@
+body.index{
+        background-image: url('Jeckjeck.png');
+		background-repeat: no-repeat;
+		background-attachment: fixed;  
+        background-size: cover;
+            }
+      header{
+                background:#CD7F32;
+                color:black;
+                padding-top:30px;
+                min-height:70px;
+                border:#F0FFFF 5px solid;
+            }
+            header a{
+                color:black;
+                text-decoration:none;
+                text-transform:uppercase;
+                font-size:15px;
+            }
+            header li{
+               float:right;
+               display:inline;
+               padding:0 10px 10px 0; 
+            }
+            header #branding{
+                float:left;
+            }
+            header #branding h1{
+                margin:0px
+            }
+            header .highlight{
+                color:white;
+                font-weight:bold;
+            }
+            header hover{
+                color:#CD7F32;
+                font-weight:bold;
+            }
+            section{
+                padding:20px;
+                display:flex;
+                flex-direction:row;
+				}
+            section img{
+                margin-right:10px;
+            }
+            .container{
+                width:80%;
+                margin:auto;
+                overflow: hidden;
+            }
+            ul{
+               margin:1px;
+               padding:1px
+               list-style-type:none; 
+            }
+            li{
+                display:inline-block;
+                margin-right:20px
+            }
+            main{
+                background:#F0FFFF;
+                padding:0;
+            }
+            footer{
+                background:#F0E68C;
+                padding:10px;
+                margin:0px;
+                color:black;
+                text-align: center;
+                font-size:10px;
+                text-transform:uppercase;
+                border:#F0FFFF 5px solid;
+            }
+            footer #branding{
+                font-weight:bold;
+            }
+            footer #branding h6{
+                margin:0;
+            }
+            footer .highlight{
+                color:white;
+            }
+
+           a{
+                color:#301934;
+                text-decoration:none;
+                font-size:15px;
+                display:flex;
+                flex-direction:column;
+                font-weight:bold;
+            }
+
+ body.contact{
+		background-image: url('Jeckjeck.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	} 
+	h1.conts{
+	text-align:center;
+	color: Black;  
+	font-family: Arial; 
+	font-size: 200%;
+	}
+     
+	h2.eww{
+		text-align:center;
+		color: Black;
+	}
+	p{
+		text-align:center;
+	}
+	h1.c{
+		color: Black;
+		text-align:center;
+	}
+
+body.products{
+		 background-image: url('Jeckjeck.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	} 
+	
+ul.products{
+	text-align:center;
+	margin:1px;
+    padding:1px; 
+	display:inline-block;
+    margin-right:20px
+}
+.products li img{
+		height: 700px;
+	width:500px;
+}
+/* This part below represent the login form of html code */
+	body.loginform{
+		 background-image: url('Jeckjeck.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}  
+ 
+	div.borderin{   
+			border: 3px solid gray; 
+		background-color: #353935;
+		background-repeat: no-repeat;
+		width:650px; 
+		height:500px;
+		color: white;
+		}   
+
+	.box input[type="text"],.box input[type="password"]
+	{
+		border: 0;
+		background: none;
+		display: block;
+		margin: 20px auto;
+		text-align: center;
+		border:3px solid #fafafa;
+		padding:14px 10px;
+		width:270px;
+		outline: none;
+		color: white;
+		border-radius: 24px;
+		transition:0.25px;
+	}
+
+	.box input[type="text"]:focus,.box input[type="password"]:focus{
+		width:270px;
+		border-color: #ffc400ec;
+	}
+	.box input[type="button"]{
+		
+		border: 0;
+		background: none;
+		display: block;
+		margin: 20px auto;
+		text-align: center;
+		border:3px solid #000000;
+		padding:14px 45px;
+		outline: none;
+		color: white;
+		border-radius: 24px;
+		transition:0.25px;
+		cursor:pointer;
+		
+	}
+	.box input[type="button"]:hover{
+		background: red;
+	} 
+	
+/* This part below represent the Signup form of html code */
+	        body.sign{
+				 background-image: url('Jeckjeck.png');
+				background-size: cover;
+				background-repeat: no-repeat;
+			}  
+ 
+		div.back {   
+
+			border: 3px solid gray;  
+			background-color: #353935;
+			background-repeat: no-repeat;
+			background-attachment: fixed;	
+			background-size: cover;
+			width:750px; 
+			height:750px;
+			color: white;
+		}   
+
+	.xb input[type="text"],.xb input[type="password"]
+	{
+		border: 0;
+		background: none;
+		display: block;
+		margin: 20px auto;
+		text-align: center;
+		border:3px solid #fafafa;
+		padding:14px 10px;
+		width:270px;
+		outline: none;
+		color: white;
+		border-radius: 24px;
+		transition:0.25px;
+	}
+
+	.xb input[type="text"]:focus,.box input[type="password"]:focus{
+		width:270px;
+		border-color: #ffc400ec;
+	}
+	.xb input[type="button"]{
+		
+		border: 0;
+		background: none;
+		display: block;
+		margin: 20px auto;
+		text-align: center;
+		border:3px solid #000000;
+		padding:14px 45px;
+		outline: none;
+		color: white;
+		border-radius: 24px;
+		transition:0.25px;
+		cursor:pointer;
+		
+	}
+	.xb input[type="button"]:hover{
+		background: red;
+	} 
+	button.signinfb{
+		color: white; 
+		background-color: #4267B2;
+	}
+	button.signingoogle {
+		 color: white;
+		 background-color: red;
+	}
